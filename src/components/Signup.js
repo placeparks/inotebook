@@ -7,7 +7,7 @@ const Signup = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("https://backend-nu-blue.vercel.app/api/auth/createuser", {
+        const response = await fetch("https://note-backend-opal.vercel.app/api/auth/createuser", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
