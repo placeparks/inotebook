@@ -3,7 +3,7 @@ import NoteContext from "./noteContext";
 import { json } from "react-router-dom";
 
 const NoteState= (props)=>{
-   const host = "https://note-backend-opal.vercel.app";
+   const host = "https://note-backend-4b48349aa5cf.herokuapp.com";
     const notesInitialise=[]
     const [notes, setNotes]= useState(notesInitialise)
 
