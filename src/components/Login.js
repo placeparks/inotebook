@@ -8,7 +8,7 @@ const Login = (props) => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch("https://note-backend-opal.vercel.app/api/auth/login", {
+        const response = await fetch("https://note-backend-4b48349aa5cf.herokuapp.com/api/auth/login", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
